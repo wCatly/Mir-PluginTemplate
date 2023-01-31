@@ -45,6 +45,22 @@ botm.load = function(env)
     return true
 end
 ```
+
+### LuaJIT Http Library
+
+In response to numerous requests, we have added an easy to use http library. This library is a slightly modified version of LuaJIT-Request, allowing the requests to be non-blocking.
+
+```lua
+local request = loadscript("http-request")
+
+request.send("https://example.com", nil, function(res, err, msg)
+    print(res.code)
+    print(res.body)
+end)
+```
+Credits to the original author. Please visit his [page](https://github.com/LPGhatguy/luajit-request) for more examples and documentation:
+
+
 Sidenote: More example can be find in [here](https://github.com/wCatly/Mir-PluginTemplate/tree/main/MirExample)
 
 ## C/C++ Development
