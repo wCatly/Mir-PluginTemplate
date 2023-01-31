@@ -103,6 +103,55 @@ manifest.json Example:
 }
 ```
 Sidenote: More example can be find in [here](https://github.com/wCatly/Mir-PluginTemplate/tree/main/MirExample)
+## Library System
+The Library System has been implemented to provide a convenient method for loading other scripts.
+
+### Creating a Library: 
+Any Script can be utilized as a library by assigning an ID to the Script, making it eligible to be loaded by other scripts. The "hide_from_user" property can also be set to "true" to prevent the library from being displayed in the launcher.
+
+main.lua:
+```lua
+local lib = {}
+
+lib.add = function(a, b)
+    return a + b
+end
+
+return lib
+```
+manifest.json:
+```json
+{
+    "script_entry" : "main.lua",
+    "hide_from_user" : true,
+    "loadscript_id" : "whatever"
+}
+```
+
+### Loading a Library:
+Loading a library is done by calling the loadscript function with the libraries id
+
+```lua
+local lib = loadscript("whatever")
+print(lib.add(10, 10))
+```
+### Lua -> Dll
+Loading a library, that is a script built as a dll, is called in the same way. loadscript automatically tries to load a lua binding with the same name (eg. orbwalker.dll -> orbwalker.lua)
+
+```lua
+local orb = loadscript("free-orbwalker")
+print("orb", orb)
+```
+### Dll - > Dll
+Scripts built as dll that rely on other scripts built as dlls must explicitly specify these dependencies. The "dependencies" field, consisting of a list of loadscript_ids separated by semicolons, ensures that the the dependency is loaded properly into the mir system. It also ensures that the appropriate version of the dependency, if built with libbotm_lapi, is loaded
+
+manifest.json:
+```json
+{
+    ...
+    "dependencies" : "free-pred;free-orbwalker;"
+}
+```
 
 ## Images
 
