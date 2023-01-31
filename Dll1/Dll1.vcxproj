@@ -76,11 +76,6 @@
     <IncludePath>C:\Users\Administrator\Desktop\Mir_7.0.0T\botm\Scripts\shaderlib;C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Administrator\Desktop\Mir_7.0.0T\botm\Scripts\shaderlib;C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Lib;$(LibraryPath)</LibraryPath>
     <OutDir>.\Release</OutDir>
-    <ExecutablePath> </ExecutablePath>
-  </PropertyGroup>
-  <PropertyGroup Label="Vcpkg">
-    <VcpkgEnabled>false</VcpkgEnabled>
-    <VcpkgEnableManifest>false</VcpkgEnableManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

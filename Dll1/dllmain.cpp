@@ -8,7 +8,7 @@ Pred *pred;
 
 BOTM_EXPORT void BOTM_API botm_draw_menu()
 {
-    Teemo::draw_menu(); //xx 
+    Teemo::draw_menu();
 }
 
 BOTM_EXPORT bool BOTM_API botm_load(ScriptEnv *env)
