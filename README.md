@@ -32,6 +32,12 @@ A little information: you can also run it by adding these necessary files to you
 
 Mir is fully upwards-compatible with LuaJIT. It supports all standard Lua library functions
 
+### LuaJIT Backwards Compatibility
+
+In an effort to improve compatibility with existing LuaJIT scripts, the system has introduced an emulation feature that enables the execution of scripts within the environment from the directory in which they are located. This approach ensures that the behavior of functions such as "require" and "io.open" aligns with the expected behavior in a standard LuaJIT installation.
+
+Additionally, the system now implements a per-script package system. For example, any changes made to package.path for a particular script will only affect the environment of that script, rather than the entire system.
+
 example.lua:
 ```lua
 botm.load = function(env)
