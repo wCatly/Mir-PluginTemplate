@@ -1,0 +1,5 @@
+{
+    "script_entry" : "MirPluginTemplate.dll",
+    "display_name" : "MirPluginTemplate",
+    "icon" : "icon.png"
+}
