@@ -1,5 +1,8 @@
 # Mir PluginTemplate
 
+[![C++][Cpp.org]][Cpp-url]
+[![Visual Studio][Visualstudio.com]][Visualstudio-url]
+
 Ready-made project starter files for C++ (visual studio) for MIR platform
 
 ## Installation
