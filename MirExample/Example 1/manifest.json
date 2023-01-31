@@ -1,0 +1,8 @@
+{
+    "script_entry" : "MirPluginTemplate.dll",
+    "display_name" : "PluginTemplate",
+    "icon" : "icon.png",
+    "loadscript_id" : "MirPluginTemplate",
+    "is_libbotm_lapi" : true,
+    "13_1_487_9641_riot" : "MirPluginTemplate.dll"
+}
