@@ -23,7 +23,7 @@ Setup:
 A little information: you can also run it by adding these necessary files to your project, but using Linker is not the most convenient at the moment, rather than doing these tasks one by one with each new version :smile:
 
 
-##Lua Development
+## Lua Development
 * [LuaJIT 2.1.0-beta3](http://luajit.org/)
 * Create your project:
 * Copy folder Mir\\scripts\\example_lua
