@@ -1,0 +1,7 @@
+{
+    "script_entry" : "free_pred.dll",
+    "hide_from_user" : true,
+    "loadscript_id" : "free-pred",
+    "is_libbotm_lapi" : true,
+    "13_1_487_9641_riot" : "free_pred.dll"
+}

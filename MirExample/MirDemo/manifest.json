@@ -1,0 +1,9 @@
+{
+    "script_entry" : "demo.lua",
+    "display_name" : "Mir Demo",
+    "author" : "Mir Group",
+    "version" : "1.0.0",
+    "icon" : "icon.png",
+    "enabled_by_default" : true,
+    "search_tags" : "help;api;"
+}

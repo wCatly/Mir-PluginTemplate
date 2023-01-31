@@ -1,0 +1,5 @@
+{
+    "script_entry" : "main.lua",
+    "hide_from_user" : true,
+    "loadscript_id" : "http-request"
+}

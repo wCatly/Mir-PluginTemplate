@@ -1,0 +1,6 @@
+{
+    "script_entry" : "main.lua",
+    "display_name" : "Open AIO",
+    "icon" : "icon.png",
+    "author" : "Alien"
+}
