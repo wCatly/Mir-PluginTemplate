@@ -1,0 +1,136 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  pch.cpp
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(534,1): warning C4244: 'return': conversion from 'float' to 'short', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(535,1): warning C4244: 'return': conversion from 'float' to 'short', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(536,1): warning C4244: 'return': conversion from 'float' to 'short', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(537,1): warning C4244: 'return': conversion from 'float' to 'short', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(539,1): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(539,1): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(540,1): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(540,1): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(541,1): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(541,1): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(542,1): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(542,1): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(544,1): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(544,1): warning C4244: 'return': conversion from 'float' to 'uint', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(545,1): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(545,1): warning C4244: 'return': conversion from 'float' to 'uint', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(546,1): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(546,1): warning C4244: 'return': conversion from 'float' to 'uint', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(547,1): warning C4244: 'argument': conversion from 'uint' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(547,1): warning C4244: 'return': conversion from 'float' to 'uint', possible loss of data
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\cimgui_ext.h(24,14): warning C4099: 'Hotkey': type name first seen using 'struct' now seen using 'class'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\cimgui_ext.h(24,7): message : see declaration of 'Hotkey'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(941,47): warning C4190: 'Game_mouse_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(943,48): warning C4190: 'Game_cursor_pos' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(976,58): warning C4190: 'Navmesh_grid_start_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(978,56): warning C4190: 'Navmesh_grid_end_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(980,52): warning C4190: 'Navmesh_grid_size' has C-linkage specified, but returns UDT 'vec<unsigned int,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(216,9): message : see declaration of 'vec<unsigned int,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(985,86): warning C4190: 'Navmesh_grid_flat_index_to_index' has C-linkage specified, but returns UDT 'vec<unsigned int,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(216,9): message : see declaration of 'vec<unsigned int,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(987,80): warning C4190: 'Navmesh_grid_world_to_index' has C-linkage specified, but returns UDT 'vec<unsigned int,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(216,9): message : see declaration of 'vec<unsigned int,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(991,82): warning C4190: 'Navmesh_grid_index_to_world' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(993,87): warning C4190: 'Navmesh_grid_flat_index_to_world' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(995,81): warning C4190: 'Navmesh_clamp_world_on_grid' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1060,47): warning C4190: 'Minimap_pos' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1062,48): warning C4190: 'Minimap_size' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1064,56): warning C4190: 'Minimap_world_bounds' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1068,74): warning C4190: 'Minimap_world_to_map' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1074,45): warning C4190: 'Camera_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1111,57): warning C4190: 'Graphics_screen_size' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1113,79): warning C4190: 'Graphics_world_to_screen' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1403,48): warning C4190: 'Texture_size' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1462,54): warning C4190: 'HudTexture_size' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1680,83): warning C4190: 'SpellDataResource_particle_start_offset' has C-linkage specified, but returns UDT 'vec<int,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(213,9): message : see declaration of 'vec<int,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1739,49): warning C4190: 'Spell_start_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1741,47): warning C4190: 'Spell_end_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1743,52): warning C4190: 'Spell_end_pos_line' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1831,88): warning C4190: 'CharacterRecord_perception_bounding_box_size' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1898,45): warning C4190: 'Path_end_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1900,41): warning C4190: 'Path_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1902,46): warning C4190: 'Path_velocity' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(1947,53): warning C4190: 'GameObject_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2001,61): warning C4190: 'AttackableUnit_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2034,53): warning C4190: 'AIClient_bar_pos' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2051,55): warning C4190: 'AIClient_direction' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2157,49): warning C4190: 'AIClient_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2179,57): warning C4190: 'Particle_orientation' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2192,49): warning C4190: 'Particle_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2230,55): warning C4190: 'NeutralCamp_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2286,43): warning C4190: 'Inhib_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2341,43): warning C4190: 'Nexus_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2362,53): warning C4190: 'Missile_start_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2364,51): warning C4190: 'Missile_end_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2380,47): warning C4190: 'Missile_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2419,49): warning C4190: 'Turret_bar_pos' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2436,51): warning C4190: 'Turret_direction' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2542,45): warning C4190: 'Turret_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2584,45): warning C4190: 'Hero_bar_pos' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2601,47): warning C4190: 'Hero_direction' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2708,41): warning C4190: 'Hero_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2771,49): warning C4190: 'Minion_bar_pos' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2788,51): warning C4190: 'Minion_direction' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2895,45): warning C4190: 'Minion_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2979,49): warning C4190: 'Player_bar_pos' has C-linkage specified, but returns UDT 'vec<float,2>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(204,9): message : see declaration of 'vec<float,2>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(2996,51): warning C4190: 'Player_direction' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\botm_api.h(3103,45): warning C4190: 'Player_pos' has C-linkage specified, but returns UDT 'vec<float,3>' which is incompatible with C
+C:\Users\Administrator\Desktop\Mir_7.0.0T\botm_sdk\Include\math_types.h(205,9): message : see declaration of 'vec<float,3>'
+  dllmain.cpp
+  Teemo.cpp
+     Creating library .\Release\MirPluginTemplate.lib and object .\Release\MirPluginTemplate.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 22 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Dll1.vcxproj -> D:\GitHub\Mir-PluginTemplate\Dll1\Release\MirPluginTemplate.dll
