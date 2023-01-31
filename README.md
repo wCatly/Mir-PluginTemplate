@@ -20,6 +20,64 @@ Setup:
 
 A little information: you can also run it by adding these necessary files to your project, but using Linker is not the most convenient at the moment, rather than doing these tasks one by one with each new version :smile:
 
+
+## C/C++ Development
+When developing a C project, you need to link against botm.dll and include the botm_api header. A gcc (MSYS2 MINGW32) example is included in the folder.
+
+libbotm_lapi_xxx.a (optional):
+* Can be linked against your C/C++ project statically
+* Is an archive of the most used api functions
+* Ultrahigh performance - inlines api functions if link time optimization (lto) is enabled
+* Other advantages: By embedding api functions in your dll, it renders your dll useless on league patches and makes it exponentially harder for cracks to crack old versions of your project. It also lets you discontinue support of your project by simply not updating it anymore
+* Disadvantage: Your project needs to be manually updated with each league patch
+* If a project links against libbotm_lapi it should be specified in the manifest.\n\"script_entry\" is then obsolete and replaced by the specific supported version. Your needs to be fully placed (excluding the manifest) in a subfolder with the supported version being the folder name
+
+```json
+{
+    "display_name" : "My Script",
+    "is_libbotm_lapi" : true,
+    "12_23_483_5208_riot" : "my_script.dll",
+    "13_1_487_9641_riot" : "my_script.dll"
+}
+```
+
+
+## Manifest
+Information about your plugin can be specified in a manifest.
+The files format is JSON and goes into the root directory of your script
+
+```bash
+MirFolder\botm\Scripts\YourFolder
+```
+
+
+```json
+"script entry"
+[optional] "display name"
+[optional] "author"
+[optional] "version"
+[optional] "icon"
+[optional] "enabled by default"
+[optional] "search_tags"
+[optional] "hide_from_user"
+[optional] "loadscript_id"
+```
+manifest.json Example:
+```json
+{
+  
+  "script_entry" : "demo_lua",
+  "display_name" : "Mir Demo",
+  "author" : "Mir Group",
+  "version" : "1.0.0",
+  "icon" : "icon.png",
+  "enabled_by_defualt" : true,
+  "search_tags" : "help;api;"
+
+}
+```
+Sidenote: More example can be find in [here](https://github.com/wCatly/Mir-PluginTemplate/tree/main/MirExample)
+
 ## Images
 
 ![1](https://cdn.discordapp.com/attachments/1039895805621960744/1070021072528883842/image.png)
