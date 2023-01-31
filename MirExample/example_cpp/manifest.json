@@ -1,0 +1,5 @@
+{
+    "script_entry" : "example.dll",
+    "display_name" : "C++ Example",
+    "icon" : "icon.png"
+}

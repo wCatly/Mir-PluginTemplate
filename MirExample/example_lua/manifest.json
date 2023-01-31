@@ -1,0 +1,5 @@
+{
+    "script_entry" : "main.lua",
+    "display_name" : "Lua Example",
+    "icon" : "icon.png"
+}
