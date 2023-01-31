@@ -1,6 +1,6 @@
 # Mir PluginTemplate
 
-Ready-made project starter files for C++ (visual studio) for MIR platform
+Ready-made project starter files for C++ (visual studio)/Lua for MIR platform
 
 ⚠️ For education purposes only. This is by no means a complete implementation and it is by no means secure!
 
