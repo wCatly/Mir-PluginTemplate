@@ -23,6 +23,24 @@ Setup:
 A little information: you can also run it by adding these necessary files to your project, but using Linker is not the most convenient at the moment, rather than doing these tasks one by one with each new version :smile:
 
 
+##Lua Development
+* [LuaJIT 2.1.0-beta3](http://luajit.org/)
+* Create your project:
+* Copy folder Mir\\scripts\\example_lua
+* Modify manifest.json (inside the folder)
+* Reload the launcher
+
+Mir is fully upwards-compatible with LuaJIT. It supports all standard Lua library functions
+
+example.lua:
+```lua
+botm.load = function(env)
+    print("Hello from example.lua")
+    return true
+end
+```
+Sidenote: More example can be find in [here](https://github.com/wCatly/Mir-PluginTemplate/tree/main/MirExample)
+
 ## C/C++ Development
 When developing a C project, you need to link against botm.dll and include the botm_api header. A gcc (MSYS2 MINGW32) example is included in the folder.
 
